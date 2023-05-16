@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    width: 980px;
+    font-size: 16px;
+    margin: auto;
+}
+
+.title {
+    color: red;
+    font-size: 25px;
+    text-align: center;
+}
+
+.img_content {
+    text-align: center;
+}
+
+.img_content > img:hover {
+    border: 5px solid red;
+}
+
+.img_title {
+    font-style: italic;
+    font-size: 12px;
+    text-align: center;
+}
+
+.name {
+    font-weight: bold;
+    text-align: right;
+}
