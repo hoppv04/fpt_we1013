@@ -20,7 +20,11 @@
     text-align: center;
 }
 
-.img_content > img:hover {
+img {
+    border: 5px solid transparent;
+}
+
+img:hover {
     border: 5px solid red;
 }
 
