@@ -4,27 +4,42 @@
   margin: 0;
 }   
 
-h2 {
-  text-transform: uppercase;
+#box1 {
+  width: 300px;
+  height: 200px;
+  color: #fff;
+  background: red;
+  border: 5px solid #000;
+  /* border-radius: 40px; */
+  padding: 10px 20px;
+  margin: 30px;
+  box-shadow: -20px 20px 30px #000;
 }
 
-p {
-    font-style: italic;
+#box2 {
+  width: 300px;
+  height: 200px;
+  background: green;
+  border-bottom: 5px double orange;
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
 }
 
-span {
-  color: brown;
-  font-weight: bold;
+#box2:hover {
+  box-shadow: 0 0 30px #000;
 }
 
-#doan-1 {
-  color: red;
+#box3 {
+  width: 300px;
+  height: 200px;
+  background: url(../img/logo_fpoly.png);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
-#doan-2 {
-    color: green;
-}
-
-#doan-3 {
-    color: blue;
+#box4 {
+  width: 300px;
+  height: 300px;
+  background: orange;
+  border-radius: 50%;
 }
