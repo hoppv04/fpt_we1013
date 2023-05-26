@@ -36,7 +36,8 @@ body {
 .nav-list li {
     display: inline;
     line-height: 50px;
-    padding: 0 8px;
+    padding: 0 16px;
+    margin: 0 -3px;
     list-style-type: none;
     border-right: 1px solid #f45d8f;
 }
@@ -115,16 +116,60 @@ body {
 .product-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 16px;  
+    gap: 2px;  
     padding: 12px 0 16px;
 }
 
 .product-item {
-    height: 200px;
-    border: 1px solid #f4dce3;
+    text-align: center;
 }
+
+.item-img {
+    width: 100%;
+}
+
+.item-title {
+    margin-top: 8px;
+}
+
+.item-title a {
+    text-decoration: none;
+    color: #333;
+}
+
+.item-price {
+    color: #767677;
+}
+
 
 .content-ads img {
     width: 100%;
     height: 100%;
+}
+
+/* Footer Css */
+.footer-main {
+    height: 76px;
+    margin-top: 24px;
+    background-color: #282c31;
+    text-align: center;
+}
+
+.footer-main li {
+    list-style: none;
+    display: inline;
+    line-height: 76px;
+    padding: 0 15px;
+    margin: 0 -3px;
+    border-right: 1px solid #d3d7da;
+}
+
+.footer-main li:last-child {
+    border: none;
+}
+
+.footer-main li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
 }
