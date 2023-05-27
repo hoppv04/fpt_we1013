@@ -12,12 +12,24 @@
     />
   </head>
   <body>
-    <div class="wrapper">
-      <header class="header-main">
-        <img src="./assets/img/logo_adidas.png" alt="" class="header-logo" />
-      </header>
-      <nav class="nav-main">
-        <div class="nav-list">
+    <!-- Header -->
+    <header class="header">
+      <div class="header-container">
+        <!-- Logo -->
+        <div class="header-logo">
+          <a href="#">
+            <svg viewBox="100 100 50 32" xmlns="http://www.w3.org/2000/svg">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M 150.07 131.439 L 131.925 100 L 122.206 105.606 L 137.112 131.439 L 150.07 131.439 Z M 132.781 131.439 L 120.797 110.692 L 111.078 116.298 L 119.823 131.439 L 132.781 131.439 Z M 109.718 121.401 L 115.509 131.439 L 102.551 131.439 L 100 127.007 L 109.718 121.401 Z"
+                fill="black"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        <!-- Navigation -->
+        <nav class="header-nav">
           <ul>
             <li><a href="#">Trang chủ</a></li>
             <li><a href="#">Giới thiệu</a></li>
@@ -25,109 +37,146 @@
             <li><a href="#">Giày</a></li>
             <li><a href="#">Phụ kiện</a></li>
           </ul>
-        </div>
-        <div class="nav-search">
-          <input type="text" placeholder="Search..." class="nav-search-input" />
-          <icon id="nav-search-btn" class="fa-solid fa-magnifying-glass"></icon>
-        </div>
-      </nav>
-      <div class="slider-main">
-        <img src="./assets/img/banner.jpg" alt="" class="slider-banner" />
-      </div>
-      <div class="content">
-        <div class="content-main">
-          <h1 class="content-title">sản phẩm sale</h1>
-          <div class="product-list">
-            <div class="product-item">
-              <img
-                src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a6d2eacf05d34173a225aef600d3b8ee_9366/Ao_Polo_Tennis_HEAT.RDY_trang_HT7182_01_laydown.jpg"
-                alt=""
-                class="item-img"
-              />
-              <h3 class="item-title"><a href="#">Áo thun</a></h3>
-              <p class="item-price">450.000đ</p>
-            </div>
-            <div class="product-item">
-              <img
-                src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b0ceddccf4b24d49966aab8a00d4d1b0_9366/Ao_khoac_the_thao_Adicolor_Classics_Primeblue_SST_DJen_GF0198_01_laydown.jpg"
-                alt=""
-                class="item-img"
-              />
-              <h3 class="item-title"><a href="#">Áo khoác</a></h3>
-              <p class="item-price">700.000đ</p>
-            </div>
-            <div class="product-item">
-              <img
-                src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/58eb7dfd665345309542ad2f001e875e_9366/Track_Pants_Lock-Up_Trefoil_Classics_Adicolor_DJen_H41387_01_laydown.jpg"
-                alt=""
-                class="item-img"
-              />
-              <h3 class="item-title"><a href="#">Quần dài</a></h3>
-              <p class="item-price">300.000đ</p>
-            </div>
-            <div class="product-item">
-              <img
-                src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/0ab1f44f6f4f4c77b4d7af4700b27ad9_9366/Giay_FortaRun_2.0_Cloudfoam_Co_Day_Co_Gian_Va_Quai_Dan_DJen_HP5442_01_standard.jpg"
-                alt=""
-                class="item-img"
-              />
-              <h3 class="item-title"><a href="#">Giày thể thao</a></h3>
-              <p class="item-price">550.000đ</p>
-            </div>
-          </div>
-          <h1 class="content-title">Sản phẩm mới</h1>
-          <div class="product-list">
-            <div class="product-item">
-              <img
-                src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2612ab5b94fd40249bd3af0100fe4950_9366/Mu_Bong_Chay_Ba_La_Stonewashed_Classics_Adicolor_DJen_IB9990_01_standard.jpg"
-                alt=""
-                class="item-img"
-              />
-              <h3 class="item-title"><a href="#">Mũ lưỡi trai</a></h3>
-              <p class="item-price">200.000đ</p>
-            </div>
-            <div class="product-item">
-              <img
-                src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/18c489722be3407298e0abdd00fcb74a_9366/PREDATOR_MUTATOR_20.1_L_FG_mau_xanh_la_EH2885_01_standard.jpg"
-                alt=""
-                class="item-img"
-              />
-              <h3 class="item-title"><a href="#">Giày bóng đá</a></h3>
-              <p class="item-price">400.000đ</p>
-            </div>
-            <div class="product-item">
-              <img
-                src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f4a7fd5a30a1403ca452ab8200cad7a1_9366/Quan_short_Saturday_DJen_FQ4707_01_laydown.jpg"
-                alt=""
-                class="item-img"
-              />
-              <h3 class="item-title"><a href="#">Quần cộc</a></h3>
-              <p class="item-price">280.000đ</p>
-            </div>
-            <div class="product-item">
-              <img
-                src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fd828302cc254e0d8d8ead6500ac3040_9366/Dep_Boi_adilette_DJen_GZ5922_01_standard.jpg"
-                alt=""
-                class="item-img"
-              />
-              <h3 class="item-title"><a href="#">Dép</a></h3>
-              <p class="item-price">250.000đ</p>
-            </div>
-          </div>
-        </div>
-        <div class="content-ads">
-          <img src="./assets/img/ads.jpg" alt="" />
+        </nav>
+        <!-- Search input -->
+        <div class="header-search">
+          <input
+            type="text"
+            class="header-search-input"
+            placeholder="Tìm kiếm"
+          />
+          <span class="header-search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
         </div>
       </div>
-      <footer class="footer-main">
-        <ul>
-            <li><a href="">Cài Đặt Cookie</a></li>
-            <li><a href="">Chính sách Bảo mật</a></li>
-            <li><a href="">Điều Khoản và Điều Kiện</a></li>
-            <li><a href="">XUẤT BẢN BỞI</a></li>
-            <li><a href="">© 2020 Công ty TNHH adidas Việt Nam</a></li>
-        </ul>
-      </footer>
+    </header>
+    <!-- Slider -->
+    <div class="slider">
+      <img class="slider-img" src="./assets/img/banner.jpg" alt="" />
     </div>
+    <div class="content">
+      <div class="content-container">
+        <!-- Sale Products -->
+        <p class="content-title">sản phẩm sale</p>
+        <div class="products-list">
+          <div class="product-item">
+            <img
+              src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5b0760f9031a4a048596af0900df5a55_9366/TR-ES_BASE_3S_T_trang_IB8151_01_laydown.jpg"
+              alt=""
+              class="item-img"
+            />
+            <div class="item-info">
+              <p class="item-name">
+                <a href="#">Áo Thun Tập Luyện 3 Sọc Train Icons</a>
+              </p>
+              <p class="item-price">892,500đ<span>1.050.000đ</span></p>
+            </div>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b0ceddccf4b24d49966aab8a00d4d1b0_9366/Ao_khoac_the_thao_Adicolor_Classics_Primeblue_SST_DJen_GF0198_01_laydown.jpg"
+              alt=""
+              class="item-img"
+            />
+            <div class="item-info">
+              <p class="item-name">
+                <a href="#"
+                  >Áo Khoác Thể Thao Adicolor Classics Primeblue STT</a
+                >
+              </p>
+              <p class="item-price">1.955.000đ<span>2.300.000đ</span></p>
+            </div>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d02df6c17bf34147ae3faef5011f4841_9366/Quan_Tap_Luyen_Tiro_23_League_DJen_HS7230_01_laydown.jpg"
+              alt=""
+              class="item-img"
+            />
+            <div class="item-info">
+              <p class="item-name">
+                <a href="#">Quần Tập Luyện Tiro 23 League</a>
+              </p>
+              <p class="item-price">1.060.500đ<span>1.250.000đ</span></p>
+            </div>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3bbecbdf584e40398446a8bf0117cf62_9366/Giay_Samba_OG_trang_B75806_01_standard.jpg"
+              alt=""
+              class="item-img"
+            />
+            <div class="item-info">
+              <p class="item-name"><a href="#">Giày Superstar</a></p>
+              <p class="item-price">2.805.000đ<span>3.300.000đ</span></p>
+            </div>
+          </div>
+        </div>
+        <!-- New Products -->
+        <p class="content-title">sản phẩm mới</p>
+        <div class="products-list">
+          <div class="product-item">
+            <img
+              src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2612ab5b94fd40249bd3af0100fe4950_9366/Mu_Bong_Chay_Ba_La_Stonewashed_Classics_Adicolor_DJen_IB9990_01_standard.jpg"
+              alt=""
+              class="item-img"
+            />
+            <div class="item-info">
+              <p class="item-name">
+                <a href="#">Mũ Bóng Chày Ba Lá Stonewashed Classics Adicolor</a>
+              </p>
+              <p class="item-price">650.000đ</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7b3184ef380f44d49da0af7200f64c97_9366/Giay_DJa_Bong_Firm_Ground_X_Speedportal.3_Hong_GZ5076_01_standard_hover.jpg"
+              alt=""
+              class="item-img"
+            />
+            <div class="item-info">
+              <p class="item-name">
+                <a href="#">Giày Đá Bóng Firm Ground X Speedportal.3</a>
+              </p>
+              <p class="item-price">2.100.000đ</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e3f3e9185b1b41759ddbaf15009ac2f6_9366/Quan_Sweat_Short_3_Soc_Classics_Adicolor_DJen_IA6351_01_laydown.jpg"
+              alt=""
+              class="item-img"
+            />
+            <div class="item-info">
+              <p class="item-name">
+                <a href="#">Quần Sweat Short 3 Sọc Classics Adicolor</a>
+              </p>
+              <p class="item-price">1.500.000đ</p>
+            </div>
+          </div>
+          <div class="product-item">
+            <img
+              src="https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/735919589b6d4d84bb66ad6e00cb68ba_9366/Dep_adilette_Comfort_DJen_GZ5891_01_standard.jpg"
+              alt=""
+              class="item-img"
+            />
+            <div class="item-info">
+              <p class="item-name"><a href="#">Dép Adilette Comfort</a></p>
+              <p class="item-price">1.000.000đ</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <ul>
+        <li><a href="">Cài Đặt Cookie</a></li>
+        <li><a href="">Chính Sách Bảo Mật</a></li>
+        <li><a href="">Điều Khoản Và Điều Kiện</a></li>
+        <li><a href="">Xuất Bản Bởi</a></li>
+        <li><a href="">© 2020 Công Ty TNHH Adidas Việt Nam</a></li> 
+      </ul>
+    </footer>
   </body>
 </html>
