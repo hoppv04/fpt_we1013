@@ -95,10 +95,8 @@ body {
 
 
 /* Slider Css */
-.slider-main {
-}
-
 .slider-banner {
+    display: block;
     width: 100%;
 }
 
