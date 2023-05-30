@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trang chủ</title>
-    <link rel="stylesheet" href="./assets/css/TrangChu.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
     <link
       rel="stylesheet"
       href="./assets/fonts/fontawesome-free-6.2.0/css/all.min.css"
@@ -17,7 +17,7 @@
       <div class="header-container">
         <!-- Logo -->
         <div class="header-logo">
-          <a href="#">
+          <a href="TrangChu.html">
             <svg viewBox="100 100 50 32" xmlns="http://www.w3.org/2000/svg">
               <path
                 fill-rule="evenodd"
@@ -31,23 +31,36 @@
         <!-- Navigation -->
         <nav class="header-nav">
           <ul>
-            <li><a href="#">Trang chủ</a></li>
+            <li><a href="TrangChu.html">Trang chủ</a></li>
             <li><a href="#">Giới thiệu</a></li>
-            <li><a href="#">Quần áo</a></li>
-            <li><a href="#">Giày</a></li>
-            <li><a href="#">Phụ kiện</a></li>
+            <li>
+              <a href="#!">Sản phẩm</a>
+              <ul class="sub-nav">
+                <li><a href="#">Chi tiết sản phẩm</a></li>
+                <li><a href="#">Báo giá sản phẩm</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Liên hệ</a></li>
           </ul>
         </nav>
         <!-- Search input -->
-        <div class="header-search">
-          <input
-            type="text"
-            class="header-search-input"
-            placeholder="Tìm kiếm"
-          />
-          <span class="header-search-icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-          </span>
+        <div class="header-search-and-login">
+          <div class="header-search">
+            <input
+              type="text"
+              class="header-search-input"
+              placeholder="Tìm kiếm"
+            />
+            <span class="header-search-icon">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
+          </div>
+          <!-- Login and register -->
+          <div class="header-login-register">
+            <a href="DangNhap.html" class="login">Đăng nhập</a>
+            <span>/</span>
+            <a href="#" class="register">Đăng kí</a>
+          </div>
         </div>
       </div>
     </header>
@@ -55,6 +68,7 @@
     <div class="slider">
       <img class="slider-img" src="./assets/img/banner.jpg" alt="" />
     </div>
+    <!-- Content -->
     <div class="content">
       <div class="content-container">
         <!-- Sale Products -->
@@ -169,6 +183,7 @@
         </div>
       </div>
     </div>
+    <!-- Footer -->
     <footer class="footer">
       <ul>
         <li><a href="">Cài Đặt Cookie</a></li>
