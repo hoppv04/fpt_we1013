@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dang nhap</title>
+    <title>Liên hệ</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
@@ -30,7 +30,7 @@
             <li><a href="TrangChu.html">Trang chủ</a></li>
             <li><a href="#!">Giới thiệu</a></li>
             <li>
-              <a href="#!!">Sản phẩm</a>
+              <a href="#!">Sản phẩm</a>
               <ul class="sub-nav">
                 <li><a href="#!">Chi tiết sản phẩm</a></li>
                 <li><a href="#!">Báo giá sản phẩm</a></li>
@@ -53,40 +53,32 @@
           </div>
           <!-- Login and register -->
           <div class="header-login-register">
-            <a href="#!" class="login">Đăng nhập</a>
+            <a href="DangNhap.html" class="login">Đăng nhập</a>
             <span>/</span>
             <a href="#!" class="register">Đăng kí</a>
           </div>
         </div>
       </div>
     </header>
-    <!-- Content -->
-    <div class="login-content">
-      <div class="login-box">
+    <!-- Contact -->
+    <div class="contact">
+      <div class="contact-container">
+        <p class="text-contact">
+          Chúng tôi mong muốn lắng nghe ý kiến của quý khách. Vui lòng gửi mọi
+          yêu cầu, thắc mắc theo thông tin bên dưới, chúng tôi sẽ liên lạc với
+          bạn sớm nhất có thế.
+        </p>
         <form>
-          <div class="user-name">
-            <input
-              type="text"
-              name=""
-              required
-              placeholder="Email hoặc số điện thoại"
-              id=""
-            />
-          </div>
-          <div class="password">
-            <input
-              type="password"
-              required
-              placeholder="Mật khẩu"
-              name=""
-              id=""
-            />
-          </div>
-          <input type="submit" value="Đăng nhập" class="submit-btn" />
+            <p>họ và tên*</p>
+            <input type="text" required name="" id="" placeholder="Nhập họ và tên">
+            <p>email*</p>
+            <input type="email required" name="" id="" placeholder="Nhập địa chỉ email">
+            <p>điện thoại*</p>
+            <input type="text" required name="" id="" placeholder="Nhập số điện thoại">
+            <p>nội dung*</p>
+            <textarea name="" placeholder="Nội dung liên hệ" id="" rows="5" style="resize: none;" required></textarea>
+            <input type="submit" value="gửi tin nhắn">
         </form>
-        <p class="forgot-password"><a href="#!!">Quên mật khẩu?</a></p>
-        <hr />
-        <a class="register-btn" href="#!!">Đăng kí</a>
       </div>
     </div>
     <!-- Footer -->
