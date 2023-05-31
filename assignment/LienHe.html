@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Liên hệ</title>
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.0/css/all.min.css">
   </head>
   <body>
     <!-- Header -->
@@ -31,10 +32,6 @@
             <li><a href="#!">Giới thiệu</a></li>
             <li>
               <a href="#!">Sản phẩm</a>
-              <ul class="sub-nav">
-                <li><a href="#!">Chi tiết sản phẩm</a></li>
-                <li><a href="#!">Báo giá sản phẩm</a></li>
-              </ul>
             </li>
             <li><a href="LienHe.html">Liên hệ</a></li>
           </ul>
@@ -55,7 +52,7 @@
           <div class="header-login-register">
             <a href="DangNhap.html" class="login">Đăng nhập</a>
             <span>/</span>
-            <a href="#!" class="register">Đăng kí</a>
+            <a href="DangKi.html" class="register">Đăng kí</a>
           </div>
         </div>
       </div>
@@ -63,22 +60,54 @@
     <!-- Contact -->
     <div class="contact">
       <div class="contact-container">
-        <p class="text-contact">
-          Chúng tôi mong muốn lắng nghe ý kiến của quý khách. Vui lòng gửi mọi
-          yêu cầu, thắc mắc theo thông tin bên dưới, chúng tôi sẽ liên lạc với
-          bạn sớm nhất có thế.
-        </p>
-        <form>
+        <div class="contact-box">
+          <p class="text-contact">
+            Chúng tôi mong muốn lắng nghe ý kiến của quý khách. Vui lòng gửi mọi
+            yêu cầu, thắc mắc theo thông tin bên dưới, chúng tôi sẽ liên lạc với
+            bạn sớm nhất có thế.
+          </p>
+          <form>
             <p>họ và tên*</p>
-            <input type="text" required name="" id="" placeholder="Nhập họ và tên">
+            <input
+              type="text"
+              required
+              name=""
+              id=""
+              placeholder="Nhập họ và tên"
+            />
             <p>email*</p>
-            <input type="email required" name="" id="" placeholder="Nhập địa chỉ email">
+            <input
+              type="email required"
+              name=""
+              id=""
+              placeholder="Nhập địa chỉ email"
+            />
             <p>điện thoại*</p>
-            <input type="text" required name="" id="" placeholder="Nhập số điện thoại">
+            <input
+              type="text"
+              required
+              name=""
+              id=""
+              placeholder="Nhập số điện thoại"
+            />
             <p>nội dung*</p>
-            <textarea name="" placeholder="Nội dung liên hệ" id="" rows="5" style="resize: none;" required></textarea>
-            <input type="submit" value="gửi tin nhắn">
-        </form>
+            <textarea
+              name=""
+              placeholder="Nội dung liên hệ"
+              id=""
+              rows="5"
+              style="resize: none"
+              required
+            ></textarea>
+            <input type="submit" value="gửi tin nhắn" />
+          </form>
+        </div>
+        <div class="contact-info">
+          <h1 class="title">liên hệ với chúng tôi</h1>
+          <p class="location"><i class="fa-sharp fa-solid fa-location-dot"></i><a href="https://www.google.com/maps/place/39+P.+Ph%C3%A1o+%C4%90%C3%A0i+L%C3%A1ng,+L%C3%A1ng+Th%C6%B0%E1%BB%A3ng,+%C4%90%E1%BB%91ng+%C4%90a,+H%C3%A0+N%E1%BB%99i,+Vi%E1%BB%87t+Nam/@21.0201099,105.8044809,17z/data=!4m6!3m5!1s0x3135ab670892e21d:0xfb48b8fd2fd241d0!8m2!3d21.0201099!4d105.8070558!16s%2Fg%2F11c5cq235y?hl=vi-VN&entry=ttu" target="_blank">39 Phố Pháo Đài Láng, Láng Thượng, Đống Đa, Hà Nội</a></p>
+          <p class="phone-number"><i class="fa-solid fa-phone"></i>Điện thoại: 0988228386</p>
+          <p class="email"><i class="fa-solid fa-envelope"></i>Email: adidas@gmail.com</p>
+        </div>
       </div>
     </div>
     <!-- Footer -->
