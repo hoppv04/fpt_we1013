@@ -4,6 +4,22 @@
   padding: 0;
 }
 
+/* Scrollbar CSS */
+html ::-webkit-scrollbar {
+    border-radius: 0px;
+    width: 0px;
+}
+
+html ::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(22, 24, 35, 0.06);
+}
+
+html ::-webkit-scrollbar-track {
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
 body {
   overflow-y: overlay;
 }
@@ -13,7 +29,7 @@ input {
   border: none;
 }
 
-/* Trang chu */
+/* Trang chủ */
 /* Header Css */
 .header {
   position: fixed;
@@ -81,7 +97,6 @@ input {
   margin-right: 12px;
   background-color: #eceff1;
   border: solid thin #eceff1;
-  transition: border ease 1s;
 }
 
 .header-search-input {
@@ -227,7 +242,7 @@ input {
   text-decoration: none;
 }
 
-/* Dang nhap */
+/* Đăng nhập */
 .login-content {
   margin-top: 60px;
   display: flex;
@@ -324,7 +339,7 @@ input {
   background-color: #36a420;
 }
 
-/* Lien he */
+/* Liên hệ */
 .contact {
   margin-top: 60px;
   margin-bottom: 26px;
@@ -364,7 +379,7 @@ input {
   border-radius: 2px;
   border: 1px solid #c8c8d4;
   outline: none;
-  transition: all 0.2s ease;
+  transition: box-shadow 0.2s ease;
 }
 
 .contact form input:focus {
@@ -378,7 +393,7 @@ input {
   padding: 10px 15px;
   border-radius: 2px;
   border: 1px solid #c8c8d4;
-  transition: all 0.2s ease;
+  transition: box-shadow 0.2s ease;
   outline: none;
 }
 
@@ -438,7 +453,7 @@ input {
   width: 30px;
 }
 
-/* Dang ki */
+/* Đăng kí */
 .register-content {
   margin-top: 60px;
   display: flex;
@@ -506,4 +521,34 @@ input {
 
 .register-box p a:hover {
   text-decoration: underline;
+}
+
+/* Bảng báo giá sản phẩm */
+.product-price-table {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 48px 0;
+  margin-top: 60px;
+}
+
+.product-price-table .table-title {
+  margin-bottom: 22px;
+}
+
+table, th, tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.product-price-table th {
+  padding: 16px;
+}
+
+.product-price-table .product-name {
+  text-align: left;
+}
+
+.product-price-table .price-sale {
+  color: red;
 }
