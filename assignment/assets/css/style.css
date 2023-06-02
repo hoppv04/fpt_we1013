@@ -6,18 +6,18 @@
 
 /* Scrollbar CSS */
 html ::-webkit-scrollbar {
-    border-radius: 0px;
-    width: 0px;
+  border-radius: 0px;
+  width: 0px;
 }
 
 html ::-webkit-scrollbar-thumb {
-    border-radius: 4px;
-    background-color: rgba(22, 24, 35, 0.06);
+  border-radius: 4px;
+  background-color: rgba(22, 24, 35, 0.06);
 }
 
 html ::-webkit-scrollbar-track {
-    border-radius: 0px;
-    background-color: rgba(0, 0, 0, 0);
+  border-radius: 0px;
+  background-color: rgba(0, 0, 0, 0);
 }
 
 body {
@@ -384,7 +384,7 @@ input {
 
 .contact form input:focus {
   border-color: rgb(185, 74, 72);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
 }
 
 .contact form textarea {
@@ -399,7 +399,7 @@ input {
 
 .contact form textarea:focus {
   border-color: rgb(185, 74, 72);
-  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 6px #ce8483;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 6px #ce8483;
 }
 
 .contact form input[type="submit"] {
@@ -442,7 +442,7 @@ input {
 
 .contact-info p a {
   color: #000;
-  text-decoration: none;;
+  text-decoration: none;
 }
 
 .contact-info p a:hover {
@@ -488,11 +488,11 @@ input {
 }
 
 .register-box .first-name {
-  margin-left: 6px; 
+  margin-left: 6px;
 }
 
 .register-box .last-name {
-  margin-right: 6px; 
+  margin-right: 6px;
 }
 
 .register-box .first-name input,
@@ -536,7 +536,9 @@ input {
   margin-bottom: 22px;
 }
 
-table, th, tr {
+table,
+th,
+tr {
   border: 1px solid black;
   border-collapse: collapse;
 }
@@ -551,4 +553,114 @@ table, th, tr {
 
 .product-price-table .price-sale {
   color: red;
+}
+
+/* Chi tiết sản phẩm */
+.product-details {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 60px;
+}
+
+.product-images-list {
+  width: 534px;
+  margin-right: 450px;
+  border-right: 1px solid #eceff1;
+}
+
+.product-images-list img {
+  width: 100%;
+  object-fit: cover;
+}
+
+img {
+  margin-bottom: 8px;
+}
+
+.product-order-box {
+  position: fixed;
+  top: 60px;
+  right: 0;
+  width: 450px;
+  padding: 30px 40px;
+  background-color: #fff;
+}
+
+.product-details .product-name {
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  line-height: 1.3;
+}
+
+.product-price {
+  font-weight: 600;
+  font-size: 18px;
+  margin: 8px 0 20px;
+}
+
+.product-price span {
+  color: red;
+  margin-left: 4px;
+  text-decoration: line-through;
+}
+
+.product-sizes {
+}
+
+.product-sizes p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.product-sizes .size-btn {
+  width: 74px;
+  height: 40px;
+  margin-left: -5px;
+  background-color: transparent;
+  border: 1px solid #eceff1;
+}
+
+.product-sizes .size-btn:nth-child(2) {
+  margin-left: 0;
+}
+
+.product-sizes .size-btn:hover {
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+
+.order-btn {
+  height: 50px;
+  width: 100%;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 32px;
+  background-color: #000;
+  text-transform: uppercase;
+  transition: color 0.2s ease-in-out;
+}
+
+.order-btn:hover {
+  cursor: pointer;
+  color: #767677;
+}
+
+.product-about {
+  margin: 32px 0 56px;
+}
+
+.product-about p {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.product-about li {
+  color: #000;
+  font-size: 18px;
+  padding-top: 16px;
+  margin-left: 24px;
 }
