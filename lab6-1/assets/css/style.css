@@ -1,0 +1,184 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 980px;
+    margin: auto;
+}
+
+.wrapper {
+
+}
+
+/* Slider Css */
+.slider {
+
+}
+
+.slider-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Navigation Css */
+.nav {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    background-color: orange;
+}
+
+.nav-list li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 12px;
+}
+
+.nav-list li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-list li a:hover {
+    text-decoration: underline;
+}
+
+.nav-search input {
+    width: 220px;
+    padding: 4px 8px;
+    margin-right: 4px;
+}
+
+.nav-search .search-btn {
+    color: #fff;
+    align-items: center;
+    padding: 5px 8px;
+    background-color: #000;
+    border: none;
+}
+
+.nav-search .search-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+/* Content Css */
+.content {
+
+}
+
+.content-title {
+    color: orange;
+    padding: 24px;
+}
+
+.content-news {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 16px 0;
+}
+
+.news-item {
+    padding: 16px;
+    border: 1px solid orange;
+}
+
+.item-title {
+    color: orange;
+    margin-bottom: 16px;
+}
+
+.item-info {
+    display: flex;
+}
+
+.item-info img {
+    margin-right: 16px;
+}
+
+.item-info p {
+    line-height: 1.5;
+}
+
+.content-main {
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 8px;
+}
+
+.content-menu {
+    border: 1px solid orange;
+}
+
+.menu-title {
+    font-size: 18px;
+    font-variant: small-caps;
+    color: orange;
+    padding: 8px 16px;
+    border-bottom: 1px solid orange;
+}
+
+.menu-list {
+    padding: 16px;
+    border-bottom: 1px solid orange;
+}
+
+.menu-list li {
+    margin-left: 20px;
+    margin-bottom: 8px;
+    color: orange;
+}
+
+.menu-list li a {
+    color: orange;
+    text-decoration: none;
+}
+
+.menu-list p {
+    color: orange;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.content-table {
+    border: 1px solid orange;
+}
+
+.table-title {
+    font-size: 18px;
+    color: orange;
+    padding: 8px 16px;
+    border-bottom: 1px solid orange;
+}
+
+table,
+th,
+tr {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+    margin: auto;
+    margin-top: 16px;
+}
+
+th {
+    padding: 6px;
+}
+
+.content-table .header th {
+    color: #fff;
+    background-color: orange;
+}
+
+/* Footer Css */
+.footer {
+
+}
