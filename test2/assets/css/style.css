@@ -1,0 +1,163 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 1024px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    background-color: #501750;
+    text-align: center;
+}
+
+.header-logo {
+    padding: 16px 0;
+}
+
+/* Navigation */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4px;
+    height: 50px;
+    background-color: #501750;
+}
+
+.navigation-menu li {
+    display: inline;
+    line-height: 50px;
+    margin-left: 32px;
+}
+
+.navigation-menu li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.navigation-menu li a:hover {
+    text-decoration: underline;
+}
+
+.navigation-search {
+    display: flex;
+    align-items: center;
+}
+
+.navigation-search input {
+    height: 32px;
+    width: 260px;    
+    font-size: 16px;
+    padding-left: 8px;
+    margin-right: 4px;
+    outline: none;
+    border: none;
+}
+
+.navigation-search button {
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #501750;
+    border: 1px solid #fff;
+    margin-right: 4px;
+    padding: 6px 16px;
+    cursor: pointer;
+}
+
+/* Banner */
+.banner {
+    margin-top: 8px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* Content */
+.content {
+    margin-top: 4px;
+}
+
+.content-top-news {
+    display: flex;
+    padding: 16px 20px;
+    border: 1px solid rgb(225, 195, 195);
+}
+
+.news-img {
+    margin-right: 20px;
+}
+
+.body-title {
+    margin-bottom: 16px;
+}
+
+.body-title a {
+    color: #333;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+.body-title a:hover {
+    text-decoration: underline;
+}
+
+.body-content {
+    word-spacing: 2px;
+    line-height: 1.6;
+}
+
+.content-news-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px 50px;
+    padding: 16px 0;
+}
+
+.news-item {
+    padding: 24px;
+    border: 1px solid rgb(225, 195, 195);
+}
+
+.item-img {
+    width: 100%;
+}
+
+.item-title {
+    margin-top: 14px;
+}
+
+.item-title a {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.item-title a:hover {
+    text-decoration: underline;
+}
+
+.item-content {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Footer */
+.footer {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    background-color: #501750;
+}
