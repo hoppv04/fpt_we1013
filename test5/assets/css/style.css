@@ -1,0 +1,172 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    width: 980px;
+    margin: auto;
+}
+
+/* Header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+}
+
+.header-input-search {
+    width: 640px;
+    padding: 6px 0 6px 12px;
+
+}
+
+.header-submit-search {
+    margin-left: 16px;
+    padding: 6px 14px;
+    color: #fff;
+    background-color: rgb(71, 23, 71);
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.header-submit-search:hover {
+    background-color: rgb(100, 39, 100);
+}
+
+/* Navigation */
+.nav-bar {
+    background-color: red;
+    padding: 16px 0;
+}
+
+.nav-bar li {
+    display: inline;
+    list-style-type: none;
+    margin: 0 16px;
+}
+
+.nav-bar li a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.nav-bar li a:hover {
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    margin: 6px 0 10px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+/* Search */
+.search {
+    background-color: red;
+    padding: 14px 24px;
+}
+
+.search form {
+    display: flex;
+}
+
+.search-input {
+    padding: 6px 0 6px 12px;
+    flex: 1;
+}
+
+.search-submit {
+    margin-left: 36px;
+    padding: 6px 14px;
+    color: #fff;
+    background-color: rgb(71, 23, 71);
+    border: 1px solid #fff;
+    cursor: pointer;
+}
+
+.search-submit:hover {
+    background-color: rgb(100, 39, 100);
+}
+
+/* Content */
+.content {
+    padding: 16px 0;
+}
+
+.sub-news-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+}
+
+.sub-news-item {
+    border: 1px solid #ccc;
+    padding: 16px 20px;
+}
+
+.sub-news-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.sub-news-title {
+    margin-top: 20px;
+}
+
+.sub-news-title a {
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.sub-news-title a:hover {
+    text-decoration: underline;
+}
+
+.main-news {
+    display: flex;
+    margin-top: 16px;
+    padding: 16px 24px;
+    border: 1px solid #ccc;
+}
+
+.main-news-img {
+    margin-right: 32px;
+}
+
+.main-news-title {
+    margin-bottom: 16px;
+}
+
+.main-news-title a {
+    color: red;
+    font-weight: bold;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.main-news-title a:hover {
+    text-decoration: underline;
+}
+
+.main-news-content {
+    word-spacing: 2px;
+    line-height: 1.5;
+}
+
+/* Footer */
+.footer {
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 16px 0;
+    background-color: rgb(71, 23, 71);
+}
